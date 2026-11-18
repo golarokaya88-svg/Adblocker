@@ -1,3 +1,4 @@
+
 name: Build VoidShield APK
 
 on:
@@ -28,9 +29,8 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-
-      - name: Accept Android SDK licenses
-        run: (yes || true) | sdkmanager --licenses
+        with:
+          packages: platform-tools
 
       - name: Set up Gradle 9.3.1
         uses: gradle/actions/setup-gradle@v4
@@ -63,3 +63,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: app/build/outputs/apk/debug/app-debug.apk
+          
