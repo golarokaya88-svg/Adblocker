@@ -1,0 +1,6 @@
+{
+  "name": "VoidShield",
+  "description": "Zero-root local VPN DNS ad and tracker blocker with a dark privacy shield interface and live block counter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

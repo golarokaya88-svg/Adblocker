@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">VoidShield</string>
+    <string name="brand_subtitle">Local DNS Privacy Shield</string>
+    <string name="status_idle">Protection Paused</string>
+    <string name="status_connecting">Initializing Tunnel…</string>
+    <string name="status_active">Shield Active</string>
+    <string name="status_error">Tunnel Interrupted</string>
+    <string name="status_detail_idle">Tap the shield to filter ads and trackers locally on-device.</string>
+    <string name="status_detail_connecting">Configuring local DNS filter interface…</string>
+    <string name="status_detail_active">Filtering ads &amp; trackers • Zero-root local VPN</string>
+    <string name="action_enable_shield">Enable Protection</string>
+    <string name="action_disable_shield">Pause Protection</string>
+    <string name="label_total_blocked">Total Ads Blocked</string>
+    <string name="label_session_blocked">This Session</string>
+    <string name="label_rules_loaded">Active Rules</string>
+    <string name="scope_notice_title">Zero-Root DNS Shield</string>
+    <string name="scope_notice_body">Blocks ad networks, banners, pop-ups, and telemetry trackers across apps and browsers without sending traffic to external VPN servers.</string>
+    <string name="vpn_permission_denied">VPN permission is required to filter ad and tracker DNS queries locally.</string>
+    <string name="notification_channel_name">Shield Protection Status</string>
+    <string name="notification_channel_desc">Displays active local ad-blocking status and quick pause control.</string>
+    <string name="notification_title_active">VoidShield is active</string>
+    <string name="notification_text_active">Blocking ads &amp; trackers • %1$d blocked this session</string>
+    <string name="notification_action_pause">Pause Shield</string>
+    <string name="cd_shield_toggle_active">Shield active. Double tap to pause ad blocking.</string>
+    <string name="cd_shield_toggle_idle">Shield paused. Double tap to enable ad blocking.</string>
+    <string name="cd_shield_toggle_connecting">Connecting local VPN shield.</string>
+</resources>
