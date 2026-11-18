@@ -26,8 +26,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Accept Android SDK licenses & ensure SDK 36
+      - name: Set up Android SDK
         uses: android-actions/setup-android@v3
+
+      - name: Accept Android SDK licenses
+        run: (yes || true) | sdkmanager --licenses
 
       - name: Set up Gradle 9.3.1
         uses: gradle/actions/setup-gradle@v4
